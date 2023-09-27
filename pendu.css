@@ -1,0 +1,99 @@
+
+body{
+    background-color:rgb(180, 180, 180);
+    font-size:20px;
+}
+
+.B_lettre{
+    width:50px;
+    height:50px;
+    border-radius:25px;
+    background-color:rgb(200,200,200);
+    font-size:20px;
+    margin: 10px;
+    ;
+    
+    
+}
+
+.B_lettre:hover{
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    border:2px solid rgb(30,30,30);
+    background-color:rgb(250,250,250);
+    color:rgb(70,10,60);
+    font-size:25px;
+}
+
+.B_lettre:visited{
+    width:40px;
+    height:40px;
+    border-radius:20px;
+    border:3px solid rgb(100,30,30);
+    background-color:rgb(0,0,0);
+    color:rgb(20,20,20);
+    font-size:20px;
+}
+
+
+
+img{
+    border:1px solid black;
+    border-radius:15px;
+    float:right;
+}
+
+#restart{
+    width:100px;
+    height:50px;
+    border-radius:25px;
+    border:2px solid black;
+    background-color:rgb(50,50,50);
+    color:rgb(200,10,10);
+}
+
+#restart:hover{
+    width:110px;
+    height:60px;
+    border-radius:30px;
+    border:3px solid rgb(40,0,0);
+    background-color:rgb(50,50,50);
+    color:rgb(200,10,10);
+}
+
+.titre {
+    display: flex;
+    justify-content: center;
+    text-decoration:underline;
+
+}
+
+.btn{
+    transform: translate(25%, -45%);
+}
+
+.img{
+display: flex;
+justify-content: center;
+}
+
+.theme{
+    display: flex;
+    justify-content: center;
+}
+.motDeviné{
+    display: flex;
+    justify-content: center;
+}
+
+
+.historique{
+    transform: translate(10%, -100%);
+    font-size: 20px;
+
+}
+.RESTART{
+    display: flex;
+    justify-content: center;
+}
